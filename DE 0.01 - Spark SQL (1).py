@@ -65,6 +65,13 @@
 
 # COMMAND ----------
 
+# MAGIC %sql
+# MAGIC SELECT name, price 
+# MAGIC -- where price is lower than 200
+# MAGIC FROM products 
+
+# COMMAND ----------
+
 # DBTITLE 0,--i18n-58f7e711-13f5-4015-8cff-c18ec5b305c6
 # MAGIC %md
 # MAGIC
